@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.header {
+    padding: 0.6em;
+    position: fixed;
+    z-index: 1;
+    width: 102vw;
+    height: auto;
+    background: none;
+    display: flex;
+    transition: 1s all ease;
+}
+
+.reveal{
+    opacity: 0;
+    transition: 1s all ease;
+
+}
+
+.active {
+    opacity: 1;
+    transition: 1s all ease;
+}
+
+.active-1 {
+    border-bottom: 1px solid #aaa;
+    background-color: white;
+    transition: 1s all ease;
+}
+
+
+
+.logo-image {
+    width: 5em;
+    height: 100%;
+    margin-left: 4em;
+}
+
+.button-download {
+    cursor: pointer;
+    width: 124px;
+    height: 48px;
+    margin: auto;
+    margin-right: 5%;
+    padding-top: .7em;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    color: white;
+    background-color: #5D8ECE;
+    background-size: 180%;
+    display: inline;
+}
+
+.button {
+    cursor: pointer;
+    width: 124px;
+    height: 48px;
+    padding-top: .7em;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    background-color: #5D8ECE;
+    background-size: 180%;
+}
+
+.main-button {
+    margin-top: 2em;
+}
+
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/b34f3ada-aacc-4e4f-9a0e-00479b56db3d.jpg);
+    background-position: 77% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 15em;
+    left: 10em;
+    color: white;
+}
+
+.main-title-large {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+
+.main-title-small {
+    font-size: 2em;
+}
+
+.HomeStatistics-ContentWrapper {
+    margin-bottom: 3rem;
+}
+
+.HomeStatistics {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
+.HomeStatistics-Title {
+    font-size: 1.125rem;
+    padding: 2em;
+    line-height: 28px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+.StatisticsList-NameComponent {
+    font-size: 1.375rem;
+    margin-right: 1.25rem;
+    letter-spacing: -1.25px;
+    color: rgb(44, 55, 70);
+}
+
+.CountUpComponent-CountComponent {
+    font-size: 2.625rem;
+    font-weight: bold;
+}
+
+.StatisticsList-UnitComponent {
+    font-size: 2.625rem;
+    font-weight: bold;
+}
+
+.StatisticsList-ListComponent {
+    width: fit-content;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+}
+
+
+.Heading-H2 {
+    text-align: center;
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 0.3em;
+}
+
+.HomeSummar-Title {
+    display: block;
+    margin-bottom: 2.5em;
+}
+
+.HomeSummar-ContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.IconLis-Icon {
+    align-self: center;
+    width: 100px;
+    height: 75px;
+    background-size: 536px 234px;
+}
+
+.car {
+    transition: 1s all ease;
+    position: relative;
+}
+
+.spin {
+    transform: rotateY(6.284rad);
+}
+
+.IconLis-IconArrow {
+    position: relative;
+    width: 0.66em; 
+    bottom: 1em;
+}
+
+.IconLis-IconListWrapper {
+    display: flex;
+}
+
+.Ico-Title {
+    font-size: 18px;
+    margin: 2rem;
+    display: block;
+    
+}
+
+.IconLis-WebIconWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.HomeHowToUse-ContentWrapper {
+    height: 700px;
+    background-color: #5D8ECE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/* .HomeHowToUse-TextWrapper {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    white-space: pre-line;
+    color: white;
+    position: relative;
+    left: 300px;
+} */
+
+.HomeHowToUse-TextWrapper {
+    flex-direction: column;
+    display: flex;
+    color: white;
+    position: relative;
+}
+
+.HomeHowToUse-Title {
+    width: 520px;
+    display: block;
+    line-height: 4.55rem;
+    font-weight: bold;
+    font-size: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+.HomeHowToUse-Subtitle {
+    line-height: 1.55rem;
+    display: block;
+    width: 520px;
+}
+
+.HomeHowToUse-ImgWrapper {
+    position: relative;
+    top: 100px;
+    height: 100%;
+    max-width: 460px;
+    width: auto;
+}
+
+.HomeHowToUse-ImageComponent {
+    position: static;
+    bottom: auto;
+    border-radius: 5%;
+    border: 1px solid white;
+    box-shadow: 5px 5px #aaa;
+    position: relative;
+}
+
+.HomeHowToUse-ContentWrapper-White {
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.HomeHowToUse-TextWrapper-White {
+    flex-direction: column;
+    display: flex;
+    color: black;
+    position: relative;
+}
+
+.HomeHowToUse-Title-White {
+    width: 520px;
+    display: block;
+    line-height: 4.55rem;
+    font-weight: bold;
+    font-size: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+.HomeHowToUse-Subtitle-White {
+    line-height: 1.55rem;
+    display: block;
+    width: 520px;
+}
+
+.HomeHowToUse-ImgWrapper-White {
+    position: relative;
+    top: 100px;
+    height: 100%;
+    max-width: 460px;
+    width: auto;
+}
+
+.image-2 {
+    width: 300px;
+}
+
+.image-3 {
+    width: 300px;
+}
+
+.HomePartner-SectionComponent {
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconList-IconListWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconList-WebIconWrapper {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.HomePartner-ContentWrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.HomePartner-Title {
+    font-size: 3rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.Icon-Title {
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+}
+    
+.Icon-Subtitle {
+    text-align: center;
+}
+
+.Footer-FooterComponent {
+    height: auto;
+    background-color: rgb(34, 44, 61);
+    position: relative;
+    box-sizing: content-box;
+    width: 100%;
+    color: white;
+}
+
+.FooterCompany-Logo {
+    width: 59px;
+    height: 59px;
+    margin-bottom: 11px;
+    background-image: url(../img/log.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.Footer-FooterContentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 50px 0px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+
+}
+
+.FooterMenu-ListGroup {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 0;
+}
+
+.FooterMenu-ListWord {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-right: 1em;
+    color: white;
+}
+
+.FooterMenu-ListWord-color:link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.FooterMenu-ListWord-color:hover {
+    color: white;
+}
+
+.FooterMenu-ListWord-color:active {
+    color: white;
+}
+
+.FooterMenu-ListWord-color:visited {
+    color: white;
+}
+
+.FooterCompany-WebDescription {
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+}
+
+.FooterCompany-Address {
+    font-style: normal;
+}
+
+.FooterSupport-CSCenter {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgb(207, 207, 207);
+}
+
+.FooterSupport-CSCenterNumber {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.FooterSupport-CSCenterInfo {
+    font-size: 14px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1em;
+}
+
+.FooterCopyRight-CopyRight {
+    margin-bottom: 1rem;
+}
+
+.SelectableList-SelectableListComponent {
+    list-style: none;
+    display: flex;
+}
+
+.Footer-Icon {
+    width: 25px;
+    fill: white;
+    margin: 0 1rem 0;
+}
+
+.BlindText-Blind {
+    display: none;
+}
+
+.mySlides {
+    display: inline-block;
+}
+
+.img-showslide {
+    max-width: 32vw;
+    border-radius: 1%;
+    box-shadow: 2px 2px #ddd;
+
+}
+
+.slideshow-container {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 4em;
+}
+
+.low-opacity {
+    opacity: 0.5;
+}
+
+.high-opacity {
+    opacity: 1;
+}
+
+/* Fading animation */
+.fade-1 {
+    animation-name: fade;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .FooterMenu-ListWord {
+        font-size: 10px;
+    }
+    
+    .IconList-WebIconWrapper {
+        margin: 0px;
+    }
+
+    .HomePartner-Title {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .HomeHowToUse-ContentWrapper-White {
+        flex-direction: column;
+        height: 1000px;
+    }
+    
+    .HomeHowToUse-ContentWrapper {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .HomeHowToUse-Title {
+        margin-top: 1em;
+    }
+
+    .HomeHowToUse-Title-White {
+        margin-top: 1em;
+
+    }    
+
+    .IconList-IconListWrapper {
+        flex-direction: column;
+    }
+
+    .HomePartner-SectionComponent {
+        height: fit-content;
+    }
+
+    .HomePartner-Title {
+        padding-top: 3em;
+    }
+
+    .Footer-FooterComponent {
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .IconLis-IconListWrapper {
+        flex-direction:  column;
+        align-items: center;
+    }
+
+    .HomePartner-Title {
+        display: block;
+        text-align: center;
+    }
+
+    .Footer-FooterContentWrapper {
+        flex-direction: column;
+    }
+
+}
+
