@@ -22,7 +22,7 @@ The FLASH VAN landing page is deployed on Github Page. You can view the live sit
 1.  **Clone the repository:**
     
     ```bash
-    git clone [https://github.com/[Your GitHub Username]/flash-van-landing-page.git](https://github.com/heterl0/flashvan.github.io)
+    git clone https://github.com/heterl0/flashvan.github.io
     ```
     
 2.  **Navigate to the project directory:**
