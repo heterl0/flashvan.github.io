@@ -47,4 +47,4 @@ Feel free to adapt and customize this landing page for your own projects.  Consi
 
 **Contact**
 
-For questions or feedback, please contact [email](lehieu99666@gmail.com).
+For questions or feedback, please contact [lehieu99666@gmail.com](mailto:lehieu99666@gmail.com).
